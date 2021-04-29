@@ -19,15 +19,15 @@ public class EnDiscoRegistroEmpleados implements RegistroEmpleados {
 		BufferedReader br = null;
 		try {
 			props.load(new FileInputStream("demo.properties"));
-			File archivo = new File(props.getProperty("rutaDesktop"));
+			File archivo = new File(props.getProperty("rutaDeArchivo"));
 			br = new BufferedReader(new FileReader(archivo));
-			// Leer la primera línea, guardando en un String por palabras separadas en ','
+			// Leer la primera lÃ­nea, guardando en un String por palabras separadas en ','
 			String split = ", ";
 			String texto = br.readLine();
 			while (texto != null) {
 				String[] texto1 = texto.split(split);
 				misEmpleados.add(new Empleados(texto1[0], texto1[1], texto1[2], texto1[03]));
-				// Leer la siguiente línea
+				// Leer la siguiente lÃ­nea
 				texto = br.readLine();
 			}
 		} catch (FileNotFoundException e) {
