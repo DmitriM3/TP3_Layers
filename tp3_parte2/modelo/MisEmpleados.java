@@ -11,12 +11,17 @@ public class MisEmpleados {
 	public MisEmpleados(ServicioDeEmail servicioEmail, RegistroEmpleados registroEmpleados) {
 		this.servicioEmail = servicioEmail;
 		this.registroEmpleados = registroEmpleados;
+		obtenerMisEmpleados();
+
+	}
+
+	public void obtenerMisEmpleados() {
 		this.misEmpleados = this.registroEmpleados.obtenerEmpleados();
 
 	}
 
 	public void enviarSaludoDeCumpleaños() throws NuevoSmtpException {
-		this.misEmpleados = this.registroEmpleados.obtenerEmpleados();
+		obtenerMisEmpleados();
 		for (Empleados empleados : misEmpleados) {
 			if (empleados.cumpleAños())
 				this.servicioEmail.enviarEmail(empleados.correoElectronico(), "Feliz Cumpleaños" + empleados.nombre(),
