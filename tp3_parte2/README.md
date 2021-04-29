@@ -4,7 +4,7 @@ Para que el proyecto funcione, se debe ubicar el archivo 'prueba.txt' en el escr
 
 Ejemplo : ( donde username es su nombre de usuario)
 
-Mac OS X: /Users/username/Desktop/prueba.txt
+Mac OS X: /Users/username/Desktop/prueba.txt\n
 Windows: C:/Users/username/Desktop/prueba.txt
 Linux: /home/username/Desktop/prueba.txt
 
