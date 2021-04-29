@@ -1,6 +1,6 @@
 /////
 
-Para que el proyecto funcione, se debe ubicar el archivo 'prueba.txt' en el escritorio.
+Para que el proyecto funcione, se debe ubicar el archivo 'prueba.txt' en el escritorio (o en cualquiera ruta deseada, recordar donde fue ubicado para modificar el demo.propierties luego.
 
 Ejemplo : ( donde username es su nombre de usuario)
 
@@ -21,3 +21,4 @@ Ejemplo: ( donde username es su nombre de usuario)
   - Windows: rutaDesktop=C:/Users/username/Desktop/prueba.txt
 
   - Linux: rutaDesktop=/home/username/Desktop/prueba.txt
+
