@@ -23,7 +23,8 @@ public class Empleados {
 	public boolean cumpleAños() {
 		boolean cumple = false;
 		LocalDate hoy = LocalDate.now();
-		if (hoy.getDayOfMonth() == fechaNac.diaInteger() && hoy.getMonthValue() == fechaNac.mesInteger()) {
+		if (hoy.getDayOfMonth() == Integer.parseInt(fechaNac.dia())
+				&& hoy.getMonthValue() == Integer.parseInt(fechaNac.mes())) {
 			cumple = true;
 		}
 		return cumple;

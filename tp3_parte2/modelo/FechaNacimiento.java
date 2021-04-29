@@ -26,12 +26,4 @@ public class FechaNacimiento {
 		return this.anio;
 	}
 
-	public int diaInteger() {
-		return new Integer(dia);
-	}
-
-	public int mesInteger() {
-		return new Integer(mes);
-	}
-
 }
