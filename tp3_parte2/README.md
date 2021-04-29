@@ -14,9 +14,6 @@ De la misma manera, se deberia modificar el archivo 'demo.properties' ubicando e
 
 Ejemplo: ( donde username es su nombre de usuario)
 
-Mac OS X:
-rutaDesktop=/Users/username/Desktop/prueba.txt
-Windows:
-rutaDesktop=C:/Users/username/Desktop/prueba.txt
-Linux:
-rutaDesktop=/home/username/Desktop/prueba.txt
+Mac OS X: rutaDesktop=/Users/username/Desktop/prueba.txt
+Windows: rutaDesktop=C:/Users/username/Desktop/prueba.txt
+Linux: rutaDesktop=/home/username/Desktop/prueba.txt
